@@ -93,6 +93,7 @@ uint8 FRuntimeMeshVertexStreamStructure::CalculateStride() const
 	}
 	AddElement(Color);
 
+	UE_LOG(LogTemp, Warning, TEXT("Stride is %d"), MaxStride);
 
 	return MaxStride;
 }

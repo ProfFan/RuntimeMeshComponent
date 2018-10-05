@@ -179,7 +179,7 @@ public:
 			UVVertexElementType = VET_Half2;
 		}
 
-		uint32 UVStride = UVSizeInBytes * NumUVs;
+		uint32 UVStride = UVSizeInBytes * NumUVs * 2;
 
 		int32 UVIndex;
 		for (UVIndex = 0; UVIndex < NumUVs - 1; UVIndex += 2)
